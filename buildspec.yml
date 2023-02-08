@@ -33,6 +33,6 @@ phases:
       - printf '[{"name":"nginx","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json 
 artifacts:
   files:
-   # - "appspec.yaml"
+    - "appspec.yaml"
     - "taskdef.json"
     - "imagedefinitions.json"
