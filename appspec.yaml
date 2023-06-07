@@ -8,5 +8,5 @@ Resources:
       Properties:
         TaskDefinition: "<TASK_DEFINITION>"
         LoadBalancerInfo:
-          ContainerName: "nginx-sample"
+          ContainerName: "nginx"
           ContainerPort: 80
